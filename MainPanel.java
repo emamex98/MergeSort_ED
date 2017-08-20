@@ -63,7 +63,7 @@ class MainPanel extends JPanel implements ActionListener{
         this.tfSorted.append(arrNumbers[i] + ", ");
       }
 
-      this.runtime.setText("Runtime: " + m.getRuntime() + " segundos.");
+      this.runtime.setText("Runtime: " + m.getRuntime() + " segundo(s).");
       this.revalidate();
 
     }
