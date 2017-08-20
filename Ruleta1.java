@@ -1,4 +1,4 @@
-public class Ruleta1{
+class Ruleta1{
 
   // Merge method
   public static int[] mergeSort(int[] numbers){
@@ -90,12 +90,12 @@ public class Ruleta1{
   // ****************************************************** //
 
   // Main method
-  public static void main(String[] args) {
-    int numbers[] = {6,4,8,3,1,3,-5};
-    numbers = mergeSort(numbers).clone();
-    for (int i=0; i < numbers.length; i++) {
-       System.out.println(numbers[i]);
-    }
-  }
+  // public static void main(String[] args) {
+  //   int numbers[] = {6,4,8,3,1,3,-5};
+  //   numbers = mergeSort(numbers).clone();
+  //   for (int i=0; i < numbers.length; i++) {
+  //      System.out.println(numbers[i]);
+  //   }
+  // }
 
 }
