@@ -18,7 +18,7 @@ class MainPanel extends JPanel implements ActionListener{
      this.setPreferredSize(new Dimension(500,600));
      //this.setBackground(Color.BLACK);
 
-     this.add(new JLabel("<html><center><br><b>Ruleta 1<br>Emanuel Estrada Larios<br>Merge Sort</b><br><br>Este programa crea un arreglo de numeros enteros aleatorios en el rango de<br>1-100 y los ordena utilizando la t&eacute;cnica 'merge sort'.<br><br>Ingrese el n&uacute;mero de elementos a crear:<br></center></html>"));
+     this.add(new JLabel("<html><center><br><b>Ruleta 1<br>Emanuel Estrada Larios<br>Merge Sort</b><br><br>Este programa crea un arreglo de numeros enteros aleatorios en el rango de<br>1-100 y los ordena utilizando la t&eacute;cnica 'merge sort'.<br><br>Problema: Un analista quiere observar si al generar n&uacute;meros aleatorios<br>se genera un patr&oacute;n. Para esto necesita una serie de n&uacute;meros,<br>y los necesita ordenados para encontrar la mediana.<br><br>Ingrese el n&uacute;mero de elementos a crear:<br></center></html>"));
 
      this.tfNumElementos = new JTextField(15);
      this.add(this.tfNumElementos);
@@ -27,9 +27,9 @@ class MainPanel extends JPanel implements ActionListener{
      this.btGo.addActionListener(this);
      this.add(this.btGo);
 
-     this.tfUnsorted = new JTextArea(10,35);
+     this.tfUnsorted = new JTextArea(8,30);
      this.tfUnsorted.setLineWrap(true);
-     this.tfSorted = new JTextArea(10,35);
+     this.tfSorted = new JTextArea(8,30);
      this.tfSorted.setLineWrap(true);
 
      this.scrollPane1 = new JScrollPane(this.tfUnsorted);
