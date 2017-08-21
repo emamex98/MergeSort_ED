@@ -98,4 +98,19 @@ public class Merge{
       return this.runtime = this.end - this.start;
     }
 
+    // public static void main(String[] args) {
+    //   Merge m = new Merge();
+    //   int numbers[] = {-5,-10,8,22,55,2,3,-39,0,8};
+    //   System.out.println("Unsorted Numbers: ");
+    //   for (int i=0; i<numbers.length; i++) {
+    //     System.out.print(numbers[i] + ", ");
+    //   }
+    //   System.out.println("\nSorted Numbers: ");
+    //   numbers = m.mergeSort(numbers).clone();
+    //   for (int i=0; i<numbers.length; i++) {
+    //     System.out.print(numbers[i] + ", ");
+    //   }
+    //   System.out.println("\n");
+    // }
+
 }
